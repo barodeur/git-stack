@@ -1,5 +1,5 @@
-import type { Database } from "@/bun/sqlite";
 import { migrations } from "./migrations";
+import type { Database } from "bun:sqlite";
 
 type MigrationName = keyof typeof migrations;
 

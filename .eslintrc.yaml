@@ -8,6 +8,9 @@ extends:
 settings:
   import/resolver:
     typescript: true
+  import/core-modules:
+    - bun:sqlite
+    - bun:test
 rules:
   import/order:
     - error
