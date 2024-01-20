@@ -18,6 +18,7 @@
     "typescript": "^5.0.0"
   },
   "dependencies": {
+    "commander": "^11.1.0",
     "lodash": "^4.17.21",
     "simple-git": "^3.22.0"
   }
